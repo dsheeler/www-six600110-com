@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>six600110 TODAY</title>
+
+	<meta charset="utf-8">
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+  </script>
+
+	<style>
+	.expando { background:#98bf21;position:relative;width:640px;height:360px;  display: block; margin-left: auto; margin-right: auto; }
+	body { background-color: #222; color: #eee; margin-left: 10%; margin-right: 10%; font-family: "DS-Digital", Helvetica, "Sans-serif"; }
+	h1 { font-size: 48px; color: #00c; text-align: center; text-shadow: 0px 2px 4px #666; }
+	p { text-align: center; font-size: 18px; font-weight: normal; }
+	h4 { text-align: center; font-size: 36px; font-weight: normal; }
+	h5 { text-align: right; }
+	a, .spanlink { color: #00e; text-decoration: none; cursor: pointer;}
+  .caption {text-align: center}
+  div.rotate_left
+  {
+  float:left;
+  -ms-transform:rotate(7deg); /* IE 9 */
+  -webkit-transform:rotate(7deg); /* Safari and Chrome */
+  transform:rotate(7deg);
+  }
+
+  div.rotate_right
+  {
+  float:left;
+  -ms-transform:rotate(-8deg); /* IE 9 */
+  -webkit-transform:rotate(-8deg); /* Safari and Chrome */
+  transform:rotate(-8deg);
+  }
+  </style>
+</head>
+
+<body>
+
+	<div style="margin-left: auto; margin-right: auto;">
+
+	<h1>six600110 TODAY</h1>
+<iframe width="100%" height="300" src="http://jsfiddle.net/six600110/Z8cgs/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+	
+<p>New Bling</p>
+	<div>
+    <img class='expando' src="http://europa.kradradio.com:8040/krad/six600110/new_watch.png">
+    <p>Smashing</p> 
+  </div>
+
+	<p>I resurrected kripton's irc bot and i added text-to-speech so it 
+	prints out the irc messagess on the screen, and it reads them to you.</p>
+	
+	<div>
+    <img class='expando' src="http://europa.kradradio.com:8040/krad/six600110/dandy.png" >
+    <p class="caption">Here's the stream running fine and dandy.</p> 
+
+    <img class='expando'src="http://europa.kradradio.com:8040/krad/six600110/vandalized.png" >
+    <p class="caption">then i vandalized it using the compositor web user interface ;P</p>
+  </div>
+	
+  <p>Today, I recorded my desktop.</p>	
+	<div>
+	<video class='expando' controls style="padding: 0px;">
+		<!-- <source src="http://67.188.0.2:3030/kradtoday.webm" type="video/webm"></source> -->
+		<source src="http://europa.kradradio.com:8040/krad/six600110/recordedmydesktop.ogv" type="video/webm"></source>
+	</video>
+  <p class="caption">screencapture of me clearing my throat.</p>
+
+  </div>
+	
+  <p>Been working on a web page to control the  <a href="http://kradradio.com">krad radio</a> compositor.<br />
+  perspective correction is a feature which allows you to "flatten out" 
+  something in a video that's hard to see because it's at an angle (like 
+  a whiteboard, or in the demo below, a computer monitor). I just added those
+  green handles that allow you to choose the part of the image on which to apply 
+  perspective correction.  </p> 
+  
+  <div>
+	<video class='expando' controls style="padding: 0px;">
+		<!-- <source src="http://67.188.0.2:3030/kradtoday.webm" type="video/webm"></source> -->
+		<source src="http://europa.kradradio.com:8040/krad/six600110/PC.webm" type="video/webm"></source>
+	</video>
+  <p class="caption">screencapture of me going from a perspective corrected view of my monitor to non-corrected and back again</p>
+
+  </div>
+
+  <div>
+    <img class='expando' src="http://europa.kradradio.com:8040/krad/six600110/PCbefore.png" >
+    <p class="caption">this is what my camera captures before i apply perspective correction</p> 
+
+    <img class='expando'src="http://europa.kradradio.com:8040/krad/six600110/PCafter.png" >
+    <p class="caption">and here is the monitor with perspective correction</p>
+  </div>
+
+
+<h4> code: <a href="https://github.com/six600110">six600110 github</a> </h4>
+<h4> code: <a href="https://github.com/krad-radio/krad_radio">krad radio source</a> </h4>
+
+  <script>
+  $('.expando').hover(
+
+    function(){
+      $(this).animate(
+        {width:'1280px', height:'720px'}
+      );
+       
+    },
+    function(){  
+      $(this).animate(
+        {width:'640px', height:'360px'}
+      );
+    
+    }
+  );
+   
+</script>
+
+</body>
+</html>
